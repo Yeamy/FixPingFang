@@ -1,0 +1,28 @@
+/* -*- truncate-lines: t -*- */
+
+
+/*
+ *  本插件的源码参考了日文插件“強制メイリオちゃん MSゴシック置き換え版”
+ *  https://chrome.google.com/webstore/detail/kmjcmncjhdnaealenhoohllicfkdojpb
+ *  在代码中，原本的部分日文注释仍保留  
+ *
+ *  第2ルール: 以下のフォントで、日本語部分がMSゴシック系で表示されるので、
+ *       「日本語部分だけを」置き換える。
+ *       キリル文字などは置き換えない。  
+ */
+/*[lang|="zh"] {font-family: 'sans-serif';}*/
+/*span { font-family:'sans-serif'; }*/
+/* @font-face { font-family: serif; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular), local(PingFang HK Regular), local(PingFang TC Regular); }
+@font-face { font-family: serif; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy), local(PingFang HK Heavy), local(PingFang TC Heavy); }
+
+@font-face { font-family: sans-serif; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular), local(PingFang HK Regular), local(PingFang TC Regular); }
+@font-face { font-family: sans-serif; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy), local(PingFang HK Heavy), local(PingFang TC Heavy); } */
+
+@font-face { font-family: PingFang SC; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular); }
+@font-face { font-family: PingFang SC; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy); }
+
+@font-face { font-family: PingFang HK; unicode-range: U+2E80-FFFF; src: local(PingFang HK Regular); }
+@font-face { font-family: PingFang HK; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang HK Heavy); }
+
+@font-face { font-family: PingFang TC; unicode-range: U+2E80-FFFF; src: local(PingFang TC Regular); }
+@font-face { font-family: PingFang TC; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang TC Heavy); }

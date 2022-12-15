@@ -1,5 +1,19 @@
-# FontChineseYahei
-css样式表，用于chrome插件“替换字体的中文部分为雅黑”
+# FixPingFang
+本插件用于Google Chrome浏览器，修复Mac OS苹方字体显示字体偏细的问题。
 
-chrome store:
-<https://chrome.google.com/webstore/detail/%E6%9B%BF%E6%8D%A2%E5%AD%97%E4%BD%93%E7%9A%84%E4%B8%AD%E6%96%87%E9%83%A8%E5%88%86%E4%B8%BA%E9%9B%85%E9%BB%91/enpkigfhoabjjjonanmddidnnahopmcn?hl=zh-CN>
+本插件的源码来自[FontChineseYahei](https://github.com/scarsty/FontChineseYahei)，  只修改了css表。
+
+## 如何使用  
+1. 将代码下载到本地，并解压保存。  
+2. 打开Chrome，在地址栏输入[chrome://extensions/](chrome://extensions/)
+3. 点击左上角“加载已解压的扩展程序”，选择刚刚解压的文件夹。
+4. 返回要浏览的网页，刷新后即可看到效果。
+
+## 注意
+可以打开这个[测试网页](https://36kr.com/pages/about)试试效果。  
+自定义字体后或者同类插件后，该插件将无法生效。
+
+## 清除自定义字体的方法  
+如果使用自定义字体导致显的，可以用以下方法清除：  
+[chrome设置了自定义字体后如何恢复（windows、macos通用）
+](https://blog.csdn.net/qq_18748427/article/details/125447055)

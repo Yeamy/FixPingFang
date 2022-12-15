@@ -1,21 +1,21 @@
 {
-    "author": "SunTY",
+    "author": "Yeamy",
     "content_scripts": [
         {
             "all_frames": true,
             "css": [
-                "css/2yahei.css"
+                "css/fixmac11_7.css"
             ],
             "matches": [
                 "<all_urls>"
             ]
         }
     ],
-    "description": "替换字体的中文部分为雅黑",
+    "description": "修复Mac OS 11苹方字体读取错误导致字体太细的问题",
     "icons": {
         "128": "128.png"
     },
-    "manifest_version": 2,
-    "name": "替换字体的中文部分为雅黑",
-    "version": "0.7.54.33"
+    "manifest_version": 3,
+    "name": "修复苹方字体太细",
+    "version": "0.1"
 }

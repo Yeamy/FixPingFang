@@ -18,6 +18,12 @@
 @font-face { font-family: sans-serif; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular), local(PingFang HK Regular), local(PingFang TC Regular); }
 @font-face { font-family: sans-serif; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy), local(PingFang HK Heavy), local(PingFang TC Heavy); } */
 
+@font-face { font-family: -apple-system; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular); }
+@font-face { font-family: -apple-system; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy); }
+
+@font-face { font-family: BlinkMacSystemFont; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular); }
+@font-face { font-family: BlinkMacSystemFont; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy); }
+
 @font-face { font-family: PingFang SC; unicode-range: U+2E80-FFFF; src: local(PingFang SC Regular); }
 @font-face { font-family: PingFang SC; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang SC Heavy); }
 
@@ -26,3 +32,9 @@
 
 @font-face { font-family: PingFang TC; unicode-range: U+2E80-FFFF; src: local(PingFang TC Regular); }
 @font-face { font-family: PingFang TC; font-weight: bold; unicode-range: U+2E80-FFFF; src: local(PingFang TC Heavy); }
+
+/* 以下为一些特殊域的字体 */
+/*
+TEXTAREA { font-family:monospace, Consolas, Microsoft Yahei; }
+PRE { font-family:monospace, Consolas, Microsoft Yahei; }
+*/
